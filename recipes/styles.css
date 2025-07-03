@@ -1,0 +1,87 @@
+*{
+}
+
+body{
+    background-color: black;
+    padding: 10px;
+    font-family: Sans-serif	;
+}
+img {
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 8px; 
+}
+
+figcaption {
+    margin-left: 10px; 
+    color: white;
+}
+
+figcaption a{
+    color: white; 
+    text-decoration: none;
+}
+
+figcaption a:hover{
+    color: gray; 
+    text-decoration: underline;
+
+}
+
+.head {
+    color: white;
+    margin-left: 10px;
+    display: flex;
+}
+.head h1{
+    font-weight: 800;
+    margin: 0px; 
+}
+.head a {
+    margin-left: auto; 
+    margin-top: auto;
+    margin-bottom: auto; 
+    text-decoration: none;
+    color: white; 
+    border-radius: 8px; 
+    padding: 4px; 
+}
+
+.head a:hover {
+    background-color: #171717;
+
+}
+.subtitle {
+    color: white;
+    margin: 10px 10px 0px 10px; 
+}
+
+.subtitle h3{
+    font-weight: 800;
+    margin: 20px 10px 5px 0px; 
+
+}
+
+.desc{
+    background-color: #171717;
+    border: 2px solid #2E2F2F;
+    border-radius: 8px;
+    margin: 0px 10px 10px 10px; 
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px 14px; 
+}
+
+.recipelist {
+    background-color: #171717;
+    border: 2px solid #2E2F2F;
+    border-radius: 8px;
+    margin: 0px 10px 10px 10px; 
+}
+
+.recipelist li {
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+}

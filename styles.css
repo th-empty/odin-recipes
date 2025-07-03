@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    padding: 10px;
+    font-family: Sans-serif	;
+
+}
+
+.head {
+    color: white;
+    margin: 10px; 
+}
+.head h1{
+    font-weight: 800;
+}
+
+.recipelist {
+    background-color: #171717;
+    border: 2px solid #2E2F2F;
+    border-radius: 8px;
+    margin: 10px; 
+}
+
+.recipelist li {
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+.recipelist li a {
+    text-decoration: none;
+    color: white;
+}
+.recipelist li a:hover {
+    color: white; 
+}
